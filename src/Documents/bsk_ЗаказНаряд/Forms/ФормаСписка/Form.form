@@ -928,7 +928,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Исполнитель</segments>
+        <segments>Список.Организация</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИсполнительРасширеннаяПодсказка</name>

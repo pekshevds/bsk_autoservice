@@ -1817,6 +1817,7 @@
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
+  <constants>Constant.bsk_ВалютаУчета</constants>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.АвтономнаяРаботаВМоделиСервиса</commonForms>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>

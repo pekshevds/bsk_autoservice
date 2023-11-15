@@ -753,10 +753,10 @@
     </attributes>
   </tabularSections>
   <templates uuid="1290b893-1176-47f3-a5ca-4b59ff134345">
-    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <name>ПФ_MXL_ЗаказНаряд</name>
     <synonym>
       <key>ru</key>
-      <value>Печатная форма</value>
+      <value>Заказ-наряд</value>
     </synonym>
   </templates>
 </mdclass:Document>

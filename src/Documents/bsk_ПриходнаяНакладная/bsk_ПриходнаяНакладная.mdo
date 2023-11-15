@@ -317,10 +317,10 @@
     </attributes>
   </tabularSections>
   <templates uuid="d422d281-3973-49f3-bc9a-6c62f2a976c2">
-    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <name>ПФ_MXL_Накладная</name>
     <synonym>
       <key>ru</key>
-      <value>Печатная форма</value>
+      <value>Накладная</value>
     </synonym>
   </templates>
 </mdclass:Document>
