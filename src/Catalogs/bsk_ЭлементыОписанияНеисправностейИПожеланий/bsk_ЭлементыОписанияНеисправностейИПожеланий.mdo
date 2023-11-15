@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="720f144d-5a13-4246-9b44-d1c3cc231879">
+  <producedTypes>
+    <objectType typeId="c0d3d23e-ec8d-4899-92b8-d5fc66949df1" valueTypeId="ba60736b-d200-4bc0-90c4-2c3fc2f39abb"/>
+    <refType typeId="3d7955b2-c8a0-4227-8ac2-6c6d9ecf6677" valueTypeId="35af0398-db0f-4962-a024-c5693b9d0780"/>
+    <selectionType typeId="f3af92c9-d70c-479b-8ca6-c2152f56eaae" valueTypeId="70d99a0c-400b-482c-aa37-c478b1be8b98"/>
+    <listType typeId="dc31a087-aa35-49d7-9b41-a0ab61b59241" valueTypeId="99ae8cde-9ab0-491f-9393-2b26f52680dd"/>
+    <managerType typeId="5b9eab1c-0875-4e23-9f6e-c182a6e3a0a3" valueTypeId="6b5575b3-0e8a-4905-8b97-25c72db06f53"/>
+  </producedTypes>
+  <name>bsk_ЭлементыОписанияНеисправностейИПожеланий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описания неисправностей и пожеланий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bsk_ЭлементыОписанияНеисправностейИПожеланий.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.bsk_ЭлементыОписанияНеисправностейИПожеланий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.bsk_ЭлементыОписанияНеисправностейИПожеланий.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="1174cc79-0d73-4bf9-919b-888683d04e03">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

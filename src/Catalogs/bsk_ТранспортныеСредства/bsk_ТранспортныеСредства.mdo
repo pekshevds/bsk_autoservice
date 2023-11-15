@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="716c80b5-64a2-4ce2-9b69-9f3aaab1d0a9">
+  <producedTypes>
+    <objectType typeId="176acc75-6337-4b7a-8a1b-24c0f2a08c41" valueTypeId="3b5d1383-6449-4cbc-829b-d243254501de"/>
+    <refType typeId="55bcf442-2ac6-49f1-a1b5-e003628c2a4f" valueTypeId="ef7bc828-fb49-4852-a3ac-ffa4f292693b"/>
+    <selectionType typeId="2bba7ae0-d7e3-4033-832e-d35f6b1d7c5b" valueTypeId="7903d2bc-8646-45db-b93e-4766e24bb32b"/>
+    <listType typeId="fcad3aea-b9be-4eb9-9143-6e8c07c58158" valueTypeId="38b61716-5dcb-4d34-af93-60568d84e684"/>
+    <managerType typeId="a2593aec-6d7a-4588-b63a-882dd8cfef18" valueTypeId="745b04e9-2070-48d1-99ce-a6bf15b37e8a"/>
+  </producedTypes>
+  <name>bsk_ТранспортныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bsk_ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>17</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.bsk_ТранспортныеСредства.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="17d938fd-b880-437c-8062-33303e760941">
+    <name>РегистрационныйЗнак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный знак</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f31b27a5-e1d3-4a85-881c-a477acca323b">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.bsk_МоделиТранспортныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="00029b2d-c38c-4c75-86cb-1b5cc02b2405">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

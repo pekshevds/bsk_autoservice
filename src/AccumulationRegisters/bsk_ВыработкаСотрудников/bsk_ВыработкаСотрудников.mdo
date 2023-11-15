@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d604982b-d3eb-455c-851c-2077505afa3c">
+  <producedTypes>
+    <selectionType typeId="f4992291-bff0-42f5-b354-92e0bce6be0e" valueTypeId="0a3b710f-2a63-4e66-9f93-bf6cc385f071"/>
+    <listType typeId="fce2e0ba-5eb9-4222-ba47-5fe96b6e3d70" valueTypeId="521451df-8232-4ec0-aeb1-ac1beccbcf98"/>
+    <managerType typeId="58c53fe1-64ee-4a49-88c4-a28ee3bee0ac" valueTypeId="51e48068-565c-4eee-ac84-2f58abbf340a"/>
+    <recordSetType typeId="2f01f883-f2df-4aa7-bd50-97a8512ca41e" valueTypeId="4621c428-ac59-4943-a1e6-3470ce46f275"/>
+    <recordKeyType typeId="290d49a5-a460-40c5-847e-6254e5d94d20" valueTypeId="8f144fcf-2d5f-4ed0-8c0f-940b38c9ba8f"/>
+    <recordType typeId="756398ef-8f8c-4bf3-bc8d-0c7c4e427ae4" valueTypeId="6a596e4f-bf57-40c6-833a-266671dd32fa"/>
+  </producedTypes>
+  <name>bsk_ВыработкаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e1ac0d0c-4335-4712-b6e5-e74407fd78d0">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="96ec5578-7ab6-4a06-b0f2-a5d038ecaef9">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="72c300c9-aae5-4025-a1fd-657cbe7ea488">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.bsk_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cc8597d3-3387-4843-9ba6-4beb1c6be90d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.bsk_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7811db0b-29a9-47ca-80b3-ac59bf7f3998">
+    <name>ЗаказНаряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ-наряд</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.bsk_ЗаказНаряд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

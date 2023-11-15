@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d478656a-754f-46dd-b944-cd4408d6b7ee">
+  <producedTypes>
+    <objectType typeId="32acd81e-ba8d-4149-aea9-e0337b82de8e" valueTypeId="50a34ae7-56a4-4c4a-abbf-161049c5ac8b"/>
+    <refType typeId="3b142089-fa56-4bf7-8bd2-4debedd194be" valueTypeId="f1e1cfc9-f95a-4f03-b279-9b1e12dfca53"/>
+    <selectionType typeId="809727b1-bbcc-4c3e-a67d-06f85664c717" valueTypeId="f71e0b45-cd58-4c8c-a409-33f90d7eb9b0"/>
+    <listType typeId="3073846c-5dc4-4f31-b306-25f5a9807257" valueTypeId="a787c36b-1f12-42af-9cbe-8dc0d8e15e45"/>
+    <managerType typeId="59daec97-9b7a-497d-acd0-d3e3e9c62428" valueTypeId="0b7b571c-949e-4ef4-a6a4-e173adf5435e"/>
+  </producedTypes>
+  <name>bsk_ЭлементыКомплектностиИВидимыхПовреждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектность и видимые повреждения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bsk_ЭлементыКомплектностиИВидимыхПовреждений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.bsk_ЭлементыКомплектностиИВидимыхПовреждений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.bsk_ЭлементыКомплектностиИВидимыхПовреждений.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="e0d823b8-5173-469c-97ae-fcf7fbd18446">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

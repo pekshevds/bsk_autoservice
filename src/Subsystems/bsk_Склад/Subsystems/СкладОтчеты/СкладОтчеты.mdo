@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5576b292-d47d-4cf1-8fbe-0fdd764cdc53">
+  <name>СкладОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.bsk_ВедомостьПоМатериаламНаСкладах</content>
+  <parentSubsystem>Subsystem.bsk_Склад</parentSubsystem>
+</mdclass:Subsystem>

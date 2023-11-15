@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0642dfe-8cd2-4300-99d4-9f0c5c134a2c">
+  <producedTypes>
+    <objectType typeId="2bdf16f4-ee14-428c-936b-c9f7d041d787" valueTypeId="c474efff-b072-4d2b-9b35-00e73190e0f0"/>
+    <refType typeId="67f5def3-5e6f-4db9-870b-1806d19dfd85" valueTypeId="18c3442b-bd86-47cf-9c79-236dd80f1896"/>
+    <selectionType typeId="01ece70d-ecbf-410e-928e-96b269836cae" valueTypeId="59d90710-9d78-4fe7-bfcb-7a8607bd60b6"/>
+    <listType typeId="5f936b54-9a3a-4470-a2a5-9d6110ab0c63" valueTypeId="8c3700eb-2258-4870-95a8-9adfbd1d2d0a"/>
+    <managerType typeId="6a0fe30e-d300-4cf7-bdc0-2d3f708cc320" valueTypeId="a7fdede1-ad40-447e-9adc-181476b5fc44"/>
+  </producedTypes>
+  <name>bsk_МаркиТранспортныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки транспортных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bsk_МаркиТранспортныхСредств.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.bsk_МаркиТранспортныхСредств.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.bsk_МаркиТранспортныхСредств.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="8bae8e32-3d41-4898-bf22-26d2ec7bd403">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

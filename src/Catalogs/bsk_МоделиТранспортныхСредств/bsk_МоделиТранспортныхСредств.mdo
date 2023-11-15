@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="269d00cb-7872-4c06-bdd0-9fde3e8e8a33">
+  <producedTypes>
+    <objectType typeId="c97bd0ac-0195-49a9-a2ff-804a68b91d58" valueTypeId="2ff1eadc-2fe2-446b-9288-cabf3bb7e0aa"/>
+    <refType typeId="6ae2733d-75c7-4baf-8225-621afbed1d8b" valueTypeId="6b997494-a4b0-4e18-b016-9fa16c93a320"/>
+    <selectionType typeId="0f0f72a4-3b16-4b68-9446-42f88f32edbe" valueTypeId="9f563f22-f0d2-4156-af55-9196be9e3ac0"/>
+    <listType typeId="244837f8-4b3e-4ac3-826e-ef2275d19468" valueTypeId="232c7efd-c3a6-40fb-918b-2367d187c4c1"/>
+    <managerType typeId="9adb62fb-fb88-4a30-86b0-0f8f18e5c8cb" valueTypeId="157560e8-6b0c-4786-844f-7169667c6ebb"/>
+  </producedTypes>
+  <name>bsk_МоделиТранспортныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели транспортных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bsk_МоделиТранспортныхСредств.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.bsk_МоделиТранспортныхСредств.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.bsk_МоделиТранспортныхСредств.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="625941db-1fa7-4af0-ba2a-ae7bd3e434bd">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.bsk_МаркиТранспортныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b7edf5b4-13b4-4fa2-91d3-2de5d97d6ade">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

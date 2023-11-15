@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d2e97ce-0c36-4f6e-a254-066e9d95b3fe">
+  <name>СкладСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.bsk_Номенклатура</content>
+  <content>Catalog.bsk_Склады</content>
+  <content>Catalog.bsk_КлассификаторЕдиницИзмерения</content>
+  <parentSubsystem>Subsystem.bsk_Склад</parentSubsystem>
+</mdclass:Subsystem>

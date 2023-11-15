@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9d256bc-26a9-4e28-a98a-a52ce9fdd4d1">
+  <producedTypes>
+    <refType typeId="6fed0469-2344-47d3-bcba-f32d46db8551" valueTypeId="add58ecb-6ab9-4ff4-b322-4f480c934b19"/>
+    <listType typeId="7eff2814-1684-4887-ae77-2f887b14480c" valueTypeId="c38c2b71-5f06-41c6-8773-8bcaa7a0c958"/>
+    <managerType typeId="87fbec24-2984-4e7c-9b73-0a93e5410a5b" valueTypeId="7b4ee5a9-6a09-42e2-b45d-3bad9141cbac"/>
+  </producedTypes>
+  <name>bsk_ОперацииРасходнойНакладной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции расходной накладной</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a9b55ba-7a35-489a-91a0-1023f55328b4">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа покупателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="738e14a0-11da-49ac-8881-18e4a01310b4">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание по реузультатам инвентаризации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0234f5a-d91a-4f2c-a525-629d78f0aaae">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат поставщику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

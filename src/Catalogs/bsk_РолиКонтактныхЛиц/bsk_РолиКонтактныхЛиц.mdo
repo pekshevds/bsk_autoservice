@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c0113c7-d0d9-4f8d-bf8c-b49b639accef">
+  <producedTypes>
+    <objectType typeId="519ff692-3072-4654-8f12-1ba36fceefd4" valueTypeId="c88599d7-36f9-4704-812c-6186a736e60a"/>
+    <refType typeId="d2f07fb4-bb2f-417d-a8a3-17eef06838b2" valueTypeId="b6d93bef-d50e-4750-8d2f-96bb9c5acc1b"/>
+    <selectionType typeId="2e57cbd5-5f83-4bb7-ac7a-896ed5b9a66c" valueTypeId="07e84848-b640-4fa8-bae3-efaa30fa2a10"/>
+    <listType typeId="381ed846-0a13-458d-a90b-41292de3cd2a" valueTypeId="ee475e33-2d6a-460c-95b7-ec2f625cabd9"/>
+    <managerType typeId="1bdedc8a-5aa0-48ed-b2e4-eb772c72bf8c" valueTypeId="296eb5cd-5998-4820-8116-38e95d605bb9"/>
+  </producedTypes>
+  <name>bsk_РолиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bsk_РолиКонтактныхЛиц.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.bsk_РолиКонтактныхЛиц.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.bsk_РолиКонтактныхЛиц.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="3fc633aa-e057-4298-b3c0-893ba6bbb75f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

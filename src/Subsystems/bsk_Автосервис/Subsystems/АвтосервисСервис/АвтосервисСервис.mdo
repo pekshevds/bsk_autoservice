@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb814903-9438-4fd3-80f8-161046a7fdba">
+  <name>АвтосервисСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.bsk_Контрагенты</content>
+  <content>Catalog.bsk_МаркиТранспортныхСредств</content>
+  <content>Catalog.bsk_МоделиТранспортныхСредств</content>
+  <content>Catalog.bsk_ТранспортныеСредства</content>
+  <content>Catalog.bsk_ЭлементыКомплектностиИВидимыхПовреждений</content>
+  <content>Catalog.bsk_ЭлементыОписанияНеисправностейИПожеланий</content>
+  <parentSubsystem>Subsystem.bsk_Автосервис</parentSubsystem>
+</mdclass:Subsystem>

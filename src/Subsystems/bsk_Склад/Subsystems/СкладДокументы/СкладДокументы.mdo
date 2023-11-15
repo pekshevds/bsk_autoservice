@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82792fb1-b738-4e9b-9c41-060534d04bfa">
+  <name>СкладДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.bsk_ПеремещениеМатериалов</content>
+  <content>Document.bsk_ПриходнаяНакладная</content>
+  <content>Document.bsk_РасходнаяНакладная</content>
+  <parentSubsystem>Subsystem.bsk_Склад</parentSubsystem>
+</mdclass:Subsystem>

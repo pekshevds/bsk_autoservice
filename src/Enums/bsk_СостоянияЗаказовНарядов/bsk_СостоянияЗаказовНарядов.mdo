@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d6129d4-e126-4a74-be9a-8a89a89c90ec">
+  <producedTypes>
+    <refType typeId="2e33a9c9-36e4-4705-a5fa-21668ccf2a33" valueTypeId="2de4ae32-1456-42e3-a39e-6e885f450e80"/>
+    <listType typeId="0634d1ee-d338-47d4-b996-f2e1608629eb" valueTypeId="f478ef4f-9a05-4521-9afe-776cd4fa2ba1"/>
+    <managerType typeId="ac2e00d4-d0dc-4b8a-a46b-166a26b8e326" valueTypeId="b08d1cf8-c64a-4565-8afb-892fe05ad9f7"/>
+  </producedTypes>
+  <name>bsk_СостоянияЗаказовНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заказов-нарядов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9ea6432f-0927-4087-bc20-ecacca4c9107">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34e84c16-7429-4667-87a3-f47d309bd668">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cb2a6c7-4929-44ab-8356-4b1959c183ef">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

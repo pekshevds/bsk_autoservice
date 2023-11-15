@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fda44330-1de5-41f0-ad4a-0ac65a4f8768">
+  <producedTypes>
+    <refType typeId="088560e6-186a-499d-80fc-4826127d0ee5" valueTypeId="d66a1efd-75d1-45fa-9aa2-cfafb503db31"/>
+    <listType typeId="a0efa244-70b1-442c-aa23-d9814d802153" valueTypeId="8d1ea2f7-ff4d-498c-9c17-0795ab1ecc4d"/>
+    <managerType typeId="942f00cd-99ac-43e8-b1eb-0008059437fc" valueTypeId="0123442e-eb7c-4554-b13f-f6564a91eb8d"/>
+  </producedTypes>
+  <name>bsk_ОперацииПриходнойНакладной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции приходной накладной</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a40e554-7035-4137-babe-c37dd475bea6">
+    <name>Покупка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка у поставщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b802afce-d5bb-45af-91fa-211da5874373">
+    <name>Отприходование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отприходование по результатам инвентаризации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b98a9cc1-2821-48fd-af99-50f63216c81c">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
